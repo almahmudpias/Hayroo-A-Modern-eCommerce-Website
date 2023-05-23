@@ -4,6 +4,10 @@ import Slider from "./Slider";
 import ProductCategory from "./ProductCategory";
 import { homeState, homeReducer } from "./HomeContext";
 import SingleProduct from "./SingleProduct";
+import Marquee from "./Fast_marqu";
+import Blog2 from "./Blog2";
+
+
 
 export const HomeContext = createContext();
 
@@ -18,6 +22,10 @@ const HomeComponent = () => {
       {/* Product Section */}
       <section className="m-4 md:mx-8 md:my-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         <SingleProduct />
+      </section>
+     <Marquee/>
+     <section >
+        <Blog2 />
       </section>
     </Fragment>
   );

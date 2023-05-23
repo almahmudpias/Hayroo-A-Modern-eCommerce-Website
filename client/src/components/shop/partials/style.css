@@ -14,6 +14,16 @@
   border-radius: 20px;
  
 }
+.nav2{
+  color: white;
+  margin-left: 60px;
+  
+}
+.nav3{
+  color: lightgray;
+  font-weight: 800;
+  padding-left: 0%;
+}
 .cart-button:hover{
   background-color: #febd69;
   color: black;

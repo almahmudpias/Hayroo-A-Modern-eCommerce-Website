@@ -17,6 +17,7 @@ import Contact_us from "./dashboardUser/Contact_us";
 import terms_condition from "./dashboardUser/terms_condition";
 import Refund_policy from "./dashboardUser/Refund_policy";
 import Privacy_policy from  "./dashboardUser/Privacy_policy";
+import SingleBlog  from "./home/SingleBlog";
 export {
   Home,
   WishList,
@@ -36,5 +37,6 @@ export {
   Blog,Contact_us,
   Refund_policy,
   terms_condition,
-  Privacy_policy
+  Privacy_policy,
+  SingleBlog
 };

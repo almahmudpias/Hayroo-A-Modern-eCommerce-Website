@@ -3,6 +3,7 @@ import moment from "moment";
 
 import { OrderContext } from "./index";
 import { fetchData, editOrderReq, deleteOrderReq } from "./Actions";
+import { TbCurrencyTaka } from "react-icons/tb";
 
 const apiURL = process.env.REACT_APP_API_URL;
 
@@ -136,8 +137,8 @@ const CategoryTable = ({ order, editOrder }) => {
             </span>
           )}
         </td>
-        <td className="hover:bg-gray-200 p-2 text-center">
-          ${order.amount}.00
+        <td className="hover:bg-gray-200 flex p-2 text-center">
+          <TbCurrencyTaka size={20}/>{order.amount}.00
         </td>
         <td className="hover:bg-gray-200 p-2 text-center">
           {order.transactionId}

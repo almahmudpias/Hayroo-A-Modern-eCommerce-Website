@@ -71,7 +71,7 @@ class Auth {
                 email,
                 password,
                 // ========= Here role 1 for admin signup role 0 for customer signup =========
-                userRole: 0, 
+                userRole: 1, 
               });
               newUser
                 .save()

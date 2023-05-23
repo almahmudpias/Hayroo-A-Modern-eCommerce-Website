@@ -15,7 +15,8 @@ import {
   Contact_us,
   Privacy_policy,
   Refund_policy,
-  terms_condition
+  terms_condition,
+  SingleBlog
 } from "./shop";
 import { DashboardAdmin, Categories, Products, Orders } from "./admin";
 import { UserProfile, UserOrders, SettingUser } from "./shop/dashboardUser";
@@ -41,6 +42,7 @@ const Routes = (props) => {
         <Route path="/refund-policy" component={Refund_policy}/>
         <Route path="/shipping-policy" component={Shipping_policy}/>
         <Route path="/term-conditions" component={terms_condition}/>
+        <Route path="/singleblog" component={SingleBlog}/>
         
         <Route
           exact
